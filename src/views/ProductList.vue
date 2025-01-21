@@ -4,9 +4,9 @@ export default {
   name: 'ProductList',
   setup(){
     const ListProducts = ref([
-      {id: 1, label: 'Carotte', description: "de belles carottes", statut: "disponible", quantity: 5},
-      {id: 2, label: 'Pomme de terre', description: "de belles pomme de terre", statut: "disponible", quantity: 0},
-      {id: 3, label: 'Pomme', description: "de belle pomme", statut: "disponible", quantity: 15},
+      {id: 1, label: 'Carotte', description: "de belles carottes", statut: "null", quantity: 5},
+      {id: 2, label: 'Pomme de terre', description: "de belles pomme de terre", statut: "null", quantity: 0},
+      {id: 3, label: 'Pomme', description: "de belle pomme", statut: "null", quantity: 15},
     ])
 
     ListProducts.value.forEach(element => {

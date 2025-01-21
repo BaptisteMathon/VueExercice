@@ -1,11 +1,11 @@
 <script setup lang="ts">
 import NextuViewHelloWorld from './views/NextuViewHelloWorld.vue'
 import ProductList from './views/ProductList.vue'
+import Formulaire from './views/Formulaire.vue'
 </script>
 
 <template>
-  <NextuViewHelloWorld :count="3"/>
-  <ProductList/>
+  <Formulaire/>
 </template>
 
 <style scoped>
